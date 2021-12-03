@@ -73,14 +73,14 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
     if (currentQuestion.question == "burung") {
-        question.innerHTML = ' <p> gambar apakah ini ? </p> <img src="bird.png" alt="Image1" width="200" height="200">'
+        question.innerHTML = '<img src="bird.png" alt="Image1" width="200" height="200">'
     }
     else {
         question.innerHTML = currentQuestion.question;
 
     }
     if (currentQuestion.question == "english") {
-        question.innerHTML = ' <p> gambar apakah ini ? </p> <audio src="English.mp3" alt="audio1" width="200" height="200">'
+        question.innerHTML = ' <audio src="English.mp3" alt="audio1" width="200" height="200">'
     }
     else {
         question.innerHTML = currentQuestion.question;
