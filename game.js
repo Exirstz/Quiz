@@ -72,13 +72,6 @@ getNewQuestion = () => {
 
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
-    if (currentQuestion.question == "burung") {
-        question.innerHTML = '<img src="https://img2.pngdownload.id/20180713/fsk/kisspng-bird-of-prey-logo-beak-desktop-wallpaper-phoenic-5b48fa35c84808.0840786615315093018204.jpg" alt="Girl in a jacket" width="200" height="200">'
-    }
-    else {
-        question.innerHTML = currentQuestion.question;
-
-    }
     question.innerHTML = currentQuestion.question;
     
 
