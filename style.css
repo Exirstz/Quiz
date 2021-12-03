@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.container1 {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.text1 {
+  margin: 10;
+  font-family: "Lucida Grande";
+  font-size: 20px;
+}
+
+.logo{
+  width: 25%;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+  font-size: 15px;
+  font-family: "Lucida Grande";
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #090910;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
