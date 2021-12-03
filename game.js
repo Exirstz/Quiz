@@ -79,7 +79,6 @@ getNewQuestion = () => {
         question.innerHTML = currentQuestion.question;
 
     }
-    question.innerHTML = currentQuestion.question;
     
 
     choices.forEach((choice) => {
