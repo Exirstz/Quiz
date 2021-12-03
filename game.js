@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    'api_quiz.json'
+    'api.json'
 )
     .then((res) => {
         return res.json();
@@ -79,6 +79,14 @@ getNewQuestion = () => {
         question.innerHTML = currentQuestion.question;
 
     }
+    if (currentQuestion.question == "english") {
+        question.innerHTML = ' <p> gambar apakah ini ? </p> <audio src="English.mp3" alt="audio1" width="200" height="200">'
+    }
+    else {
+        question.innerHTML = currentQuestion.question;
+
+    }
+    
 
     choices.forEach((choice) => {
         const number = choice.dataset['number'];
