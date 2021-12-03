@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    'api.json'
+    'api_quiz.json'
 )
     .then((res) => {
         return res.json();
