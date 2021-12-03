@@ -73,14 +73,14 @@ getNewQuestion = () => {
     const questionIndex = Math.floor(Math.random() * availableQuesions.length);
     currentQuestion = availableQuesions[questionIndex];
     if (currentQuestion.question == "burung") {
-        question.innerHTML = '<img src="https://github.com/Exirstz/Quiz/blob/e5494edba1bd412811313c9eb9be153b11918a75/bird.png" alt="Image1" width="200" height="200">'
+        question.innerHTML = '<img src="bird.png" alt="Image1" width="200" height="200">'
     }
     else {
         question.innerHTML = currentQuestion.question;
 
     }
     if (currentQuestion.question == "english") {
-        question.innerHTML = ' <audio src="https://github.com/Exirstz/Quiz/blob/e5494edba1bd412811313c9eb9be153b11918a75/English.mp3" alt="audio1" width="200" height="200">'
+        question.innerHTML = ' <audio controls> <src=english.mp3" type="audio/mpeg"> </audio>'
     }
     else {
         question.innerHTML = currentQuestion.question;
