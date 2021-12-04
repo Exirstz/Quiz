@@ -75,11 +75,7 @@ getNewQuestion = () => {
     if (currentQuestion.question == "burung") {
         question.innerHTML = '<img src="bird.png" alt="Image_1" width="200" height="200">'
     }
-    else {
-        question.innerHTML = currentQuestion.question;
-
-    }
-    if (currentQuestion.question == "english") {
+    else if (currentQuestion.question == "english") {
         question.innerHTML = ' <audio controls> <src="english.mp3" type="audio/mpeg"> </audio>'
     }
     else {
